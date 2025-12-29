@@ -6,7 +6,7 @@
       path="device/motorola/fogos"
       name="shipukacapri/android_device_motorola_fogos"
       remote="github"
-      revision="infinity" />
+      revision="infinity-qpr1" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
