@@ -42,6 +42,13 @@
       path="hardware/samsung_slsi/nfc"
       remote="github"
       revision="lineage-23.1" />
+
+<!-- dolby for moto -->
+  <project
+    name="Saikrishna1504/hardware_dolby"
+    path="hardware/dolby"
+    remote="github"
+    revision="bka" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
