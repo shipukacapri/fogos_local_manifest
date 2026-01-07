@@ -11,7 +11,7 @@
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
-      name="LineageOS/android_device_motorola_sm6375-common"
+      name="shipukacapri/android_device_motorola_sm6375-common"
       remote="github"
       revision="lineage-23.1" />
 
@@ -42,6 +42,13 @@
       path="hardware/samsung_slsi/nfc"
       remote="github"
       revision="lineage-23.1" />
+
+  <!-- dolby for moto -->
+  <project
+    name="Pong-Development/hardware_dolby"
+    path="hardware/dolby"
+    remote="github"
+    revision="16" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
