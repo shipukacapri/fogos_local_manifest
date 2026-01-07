@@ -45,10 +45,10 @@
 
 <!-- dolby for moto -->
   <project
-    name="Saikrishna1504/hardware_dolby"
+    name="swiitch-OFF-Lab/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="bka" />
+    revision="moto-1.0" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
