@@ -45,10 +45,10 @@
 
 <!-- dolby for moto -->
   <project
-    name="swiitch-OFF-Lab/hardware_dolby"
+    name="Pong-Development/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="moto-1.0" />
+    revision="16" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
