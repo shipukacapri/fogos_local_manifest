@@ -62,7 +62,7 @@
     name="shipukacapri/packages_apps_GameBar"
     path="packages/apps/GameBar"
     remote="github"
-    revision="main" />
+    revision="lunaris-16" />
     
 <!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
   
