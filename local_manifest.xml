@@ -4,37 +4,37 @@
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
       path="device/motorola/fogos"
-      name="shipukacapri/android_device_motorola_fogos"
+      name="shipsingh2002/Lineage_android_device_motorola_fogos"
       remote="github"
       revision="derp-qp2" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
-      name="shipukacapri/android_device_motorola_sm6375-common"
+      name="JNWSG/Lineage_android_device_motorola_sm6375-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="16.2" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6375"
-      name="LineageOS/android_kernel_motorola_sm6375"
+      name="JNWSG/Lineage_android_kernel_motorola_sm6375"
       remote="github"
-      revision="lineage-23.2" />
+      revision="16.2" />
   
   <!-- Vendor blobs for fogos (your fork) -->
   <project
       path="vendor/motorola/fogos"
-      name="TheMuppets/proprietary_vendor_motorola_fogos"
+      name="JNWSG/Lineage_android_vendor_motorola_fogos"
       remote="github"
-      revision="lineage-23.2" />
+      revision="16.2" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6375-common"
-      name="TheMuppets/proprietary_vendor_motorola_sm6375-common"
+      name="JNWSG/Lineage_android_vendor_motorola_sm6375-common"
       remote="github"
-      revision="lineage-23.2" />
+      revision="16.2" />
 
 <!-- nfc for fogos -->
   <project
@@ -45,25 +45,18 @@
 
 <!-- dolby for moto -->
   <project
-    name="Evolution-X-Devices/hardware_dolby"
+    name="JNWSG/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="bka" />
+    revision="16.0" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
-    name="LineageOS/android_hardware_motorola"
+    name="JNWSG/Lineage_hardware_motorola"
     path="hardware/motorola"
     remote="github"
-    revision="lineage-23.2" />
+    revision="16.2" />
 
-  <!-- Gamebar -->
-  <project
-    name="shipukacapri/packages_apps_GameBar"
-    path="packages/apps/GameBar"
-    remote="github"
-    revision="lunaris-16" />
-    
 <!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
   
 
