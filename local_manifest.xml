@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="gitea-jnwsg"
+        fetch="https://gitea.com/JNWSG" />
   
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
@@ -35,6 +38,13 @@
       name="JNWSG/Lineage_android_vendor_motorola_sm6375-common"
       remote="github"
       revision="16.2" />
+
+  <!-- motocam -->
+  <project
+    name="vendor_motorola_MotCamera4"
+    path="vendor/motorola/MotCamera4"
+    remote="gitea-jnwsg"
+    revision="16.0" />
 
 <!-- nfc for fogos -->
   <project
