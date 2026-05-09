@@ -9,7 +9,7 @@
       path="device/motorola/fogos"
       name="shipsingh2002/Lineage_android_device_motorola_fogos"
       remote="github"
-      revision="derp-qp2" />
+      revision="inf-qp2" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
