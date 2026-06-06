@@ -7,9 +7,9 @@
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
       path="device/motorola/fogos"
-      name="shipsingh2002/Lineage_android_device_motorola_fogos"
+      name="shipukacapri/JNWSG_android_device_motorola_fogos"
       remote="github"
-      revision="inf-qp2" />
+      revision="infinity" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
