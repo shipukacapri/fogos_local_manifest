@@ -3,41 +3,44 @@
 
   <remote name="gitea-jnwsg"
         fetch="https://gitea.com/JNWSG" />
+
+  <remote name="shipukacapri"
+        fetch="https://github.com/shipukacapri/" />
   
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
       path="device/motorola/fogos"
-      name="shipukacapri/JNWSG_android_device_motorola_fogos"
-      remote="github"
-      revision="infinity" />
+      name="device_motorola_fogos"
+      remote="shipukacapri"
+      revision="infinity-16" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
-      name="JNWSG/Lineage_android_device_motorola_sm6375-common"
-      remote="github"
-      revision="16.2" />
+      name="android_device_motorola_sm6375-common"
+      remote="shipukacapri"
+      revision="dolby-16" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6375"
-      name="JNWSG/Lineage_android_kernel_motorola_sm6375"
-      remote="github"
+      name="kernel_motorola_sm6375"
+      remote="shipukacapri"
       revision="16.2" />
   
   <!-- Vendor blobs for fogos (your fork) -->
   <project
       path="vendor/motorola/fogos"
-      name="JNWSG/Lineage_android_vendor_motorola_fogos"
+      name="TheMuppets/proprietary_vendor_motorola_fogos"
       remote="github"
-      revision="16.2" />
+      revision="lineage-23.2" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6375-common"
-      name="JNWSG/Lineage_android_vendor_motorola_sm6375-common"
+      name="TheMuppets/proprietary_vendor_motorola_sm6375-common"
       remote="github"
-      revision="16.2" />
+      revision="lineage-23.2" />
 
   <!-- motocam -->
   <project
@@ -62,15 +65,9 @@
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
-    name="JNWSG/Lineage_hardware_motorola"
+    name="LineageOS/android_hardware_motorola"
     path="hardware/motorola"
     remote="github"
-    revision="16.2" />
-
-<!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
-  
-
-<!-- QCOM policy helpers: hardware/qcom/sepolicy
-     Some BoardConfig/common makefiles expect hardware/qcom policy helpers. -->
+    revision="lineage-23.2" />
 
 </manifest>
