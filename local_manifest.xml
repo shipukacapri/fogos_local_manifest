@@ -4,37 +4,37 @@
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
       path="device/motorola/fogos"
-      name="shipukacapri/android_device_motorola_fogos"
+      name="shipukacapri/device_motorola_fogos"
       remote="github"
       revision="evo-17" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
-      name="shipukacapri/android_device_motorola_sm6375-common"
+      name="shipukacapri/device_motorola_sm6375-common"
       remote="github"
-      revision="erofs-a17" />
+      revision="seventeen" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6375"
-      name="shipsingh2002/android_kernel_motorola_sm6375"
+      name="shipsingh2002/kernel_motorola_sm6375"
       remote="github"
       revision="erofs" />
   
   <!-- Vendor blobs for fogos (your fork) -->
   <project
       path="vendor/motorola/fogos"
-      name="shipukacapri/proprietary_vendor_motorola_fogos"
+      name="TheMuppets/proprietary_vendor_motorola_fogos"
       remote="github"
-      revision="android-17" />
+      revision="lineage-24.0" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6375-common"
-      name="shipukacapri/proprietary_vendor_motorola_sm6375-common"
+      name="TheMuppets/proprietary_vendor_motorola_sm6375-common"
       remote="github"
-      revision="android-17" />
+      revision="lineage-24.0" />
 
 <!-- nfc for fogos -->
   <project
@@ -57,10 +57,4 @@
     remote="github"
     revision="lineage-24.0" />
     
-<!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
-  
-
-<!-- QCOM policy helpers: hardware/qcom/sepolicy
-     Some BoardConfig/common makefiles expect hardware/qcom policy helpers. -->
-
 </manifest>
