@@ -18,7 +18,7 @@
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6375"
-      name="shipsingh2002/kernel_motorola_sm6375"
+      name="shipukacapri/kernel_motorola_sm6375"
       remote="github"
       revision="erofs" />
   
