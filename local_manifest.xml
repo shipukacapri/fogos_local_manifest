@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote
+        name="github"
+        fetch="https://github.com/" />
   
   <!-- Device tree for Motorola G34 fogos (your fork) -->
   <project
       path="device/motorola/fogos"
-      name="shipukacapri/device_motorola_fogos"
+      name="shipukacapri/android_device_motorola_fogos"
       remote="github"
-      revision="rising-17" />
+      revision="voltage-17" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
-      name="shipukacapri/device_motorola_sm6375-common"
+      name="shipukacapri/android_device_motorola_sm6375-common"
       remote="github"
-      revision="seventeen" />
+      revision="volt-17" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6375"
-      name="shipukacapri/kernel_motorola_sm6375"
+      name="shipsingh2002/android_kernel_motorola_sm6375"
       remote="github"
       revision="erofs" />
   
